@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#header{
+  background-color: #db6a1f;
+}
+#header .web-header{
+  height: 8vh;
+}
+#header a{
+  font-size: 1.2vw;
+}
+#header img{
+  width: 35px;
+}
+#header .links-mob{
+  font-size: 15px;
+}
+
+
+#about img{
+  width: 100%;
+  height: 92vh;
+  object-fit: cover;
+}
+#about h2{
+  color: #ffffff;
+  font-size: 35px;
+}
+#about p{
+  color: #ffffff;
+  font-size: 17px;
+}
+#about .about-text-mob{
+  font-size: 18px;
+}
+
+
+#resume{
+  background-color: #db6a1f;
+}
+
+
+#projects img{
+  width: 100%;
+}
+#projects p{
+  font-size: 18px;
+  color: #1b1b1b;
+}
+
+
+#skills{
+  background-color: #1b1b1b;
+}
+#skills h2{
+  color: #ffffff;
+}
+#skills li{
+  color: #ffffff;
+}
+#skills img{
+  width: 30px;
+}
+
+
+#contact{
+  background-color: #db6a1f;
+}
+#contact h2{
+  color: #ffffff;
+}
+#contact li{
+  color: #ffffff;
+}
+
+
+#portfolio{
+  background-color: #1b1b1b;
+  color: #ffffff;
+}
+
+
+#aboutpage img{
+  width: 100%;
+}
+#aboutpage h2{
+  font-size: 30px;
+  background-color: #db6a1f;
+  color: #ffffff;
+}
+#aboutpage p{
+  font-size: 18px;
+  color: #1b1b1b;
+}
+#aboutpage .aboutpage-text-mob{
+  font-size: 20px;
+}
+
+
+#experience{
+  background-color: #1b1b1b;
+}
+#experience h2{
+  color: #ffffff;
+}
+#experience h5{
+  color: #1b1b1b;
+  background-color: #ffffff;
+}
+#experience p{
+  color: #ffffff;
+}
+#experience .experience-text-mob{
+  font-size: 20px;
+}
+
+
+#projectpage img{
+  width: 100%;
+}
+#projectpage h4{
+  color: #ffffff;
+}
+#projectpage p{
+  color: #ffffff;
+  font-size: 18px;
+}
+#projectpage .projectpage-text-mob{
+  font-size: 20px;
+}
