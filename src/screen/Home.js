@@ -67,8 +67,8 @@ function Home() {
 
     function pdfFn() {
         const link = document.createElement("a");
-        link.href = "MohammadHasan.pdf.png";
-        link.download = "MohammadHasan.pdf.png";
+        link.href = "MohammadHasan.pdf";
+        link.download = "MohammadHasan.pdf";
         link.click();
     }
 
