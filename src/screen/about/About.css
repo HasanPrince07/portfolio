@@ -1,0 +1,127 @@
+#aboutpage {
+    margin-top: 15vh;
+}
+
+#aboutpage img {
+    width: 100%;
+}
+
+#aboutpage h2 {
+    font-size: 32px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+#aboutpage p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+    #aboutpage h2 {
+        font-size: 28px;
+    }
+
+    #aboutpage p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #aboutpage h2 {
+        font-size: 20px;
+    }
+
+    #aboutpage p {
+        font-size: 14px;
+    }
+
+    #aboutpage img {
+        width: 70%;
+    }
+}
+
+
+
+#education {
+    background-color: #ecf0f1;
+    margin-top: 100px;
+}
+
+#education h2 {
+    color: #2c3e50;
+}
+
+#education h3 {
+    color: #2c3e50;
+    font-size: 22px;
+}
+
+#education .div1 {
+    border: 1px solid #2c3e50;
+}
+
+#education h4 {
+    color: #2c3e50;
+}
+
+#education p {
+    font-size: 17px;
+    color: #2c3e50;
+}
+
+@media screen and (max-width: 576px) {
+    #education h3 {
+        font-size: 20px;
+    }
+
+    #education h4 {
+        font-size: 16px;
+    }
+
+    #education p {
+        font-size: 14px;
+    }
+}
+
+
+
+#experience {
+    background-color: #2c3e50;
+    margin-top: 100px;
+}
+
+#experience h2 {
+    color: #ecf0f1;
+}
+
+#experience h3 {
+    color: #ecf0f1;
+    font-size: 22px;
+}
+
+#experience .div1 {
+    border: 1px solid white;
+}
+
+#experience h4 {
+    color: white;
+}
+
+#experience p {
+    font-size: 17px;
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    #experience h3 {
+        font-size: 20px;
+    }
+
+    #experience h4 {
+        font-size: 16px;
+    }
+
+    #experience p {
+        font-size: 14px;
+    }
+}

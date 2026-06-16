@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+#header {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+#header a {
+  font-size: 17px;
+  color: #2c3e50;
+}
+
+#header .active {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+}
+
+#header img {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  #header a {
+    font-size: 14px;
+  }
+}
+
+
+
+#notfound {
+  height: 100vh;
+}
+
+#notfound h1 {
+  font-size: 100px;
+}
+
+#notfound h2 {
+  letter-spacing: 3px;
+}
+
+#notfound p {
+  font-size: 20px;
+}
+
+#notfound .btn1 {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: 2px solid #2c3e50;
+}
+
+#notfound .btn1:hover {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  border: 2px solid #2c3e50;
+}
+
+#notfound .btn2 {
+  background-color: #ecf0f1;
+  color: #34495e;
+  border: 2px solid #2c3e50;
+}
+
+#notfound .btn2:hover {
+  background-color: #7f8c8d;
+  color: #ecf0f1;
+  border: 2px solid #2c3e50;
+}
+
+@media screen and (max-width: 576px) {
+  #notfound h1 {
+    font-size: 80px;
+  }
+
+  #notfound h2 {
+    letter-spacing: 1px;
+  }
+
+  #notfound p {
+    font-size: 16px;
+  }
+
+  #notfound button {
+    font-size: 12px;
+  }
+}
+
+
+
+#loader {
+  height: 87vh;
+}
+
+#loader .spinner {
+  border: 6px solid #ecf0f1;
+  border-top: 6px solid #2c3e50;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loader h2 {
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  #loader {
+    height: 93vh;
+  }
+
+  #loader h2 {
+    font-size: 32px;
+  }
+
+  #loader .spinner {
+    border: 8px solid #ecf0f1;
+    border-top: 8px solid #2c3e50;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #loader {
+    height: 91vh;
+  }
+
+  #loader .spinner {
+    border: 6px solid #ecf0f1;
+    border-top: 6px solid #2c3e50;
+    width: 45px;
+    height: 45px;
+  }
+
+  #loader h2 {
+    font-size: 25px;
+  }
+}
